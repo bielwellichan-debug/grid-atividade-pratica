@@ -11,10 +11,49 @@ body {
     grid-template-areas: "sidebar grade" "sidebar footer";
 }
 
-.sidebar { grid-area: sidebar;}
-.grade { grid-area: grade;}
-.footer {grid-area: footer;}
+.sidebar {
+    grid-area: sidebar;
+}
+
+.grade {
+    grid-area: grade;
+}
+
+.footer {
+    grid-area: footer;
+}
 
 .sidebar {
-    
+    display: grid;
+    align-content: start;
+    gap: 5px;
+    padding: 30px 15px;
+    background-color: #e8e0f7;
+}
+
+.caixa-menu {
+    color: #6b5b95;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.caixa-menu:hover {
+    background-color: #ffffff;
+    color: #4a3b78;
+}
+
+.caixa-menu-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4a3b78;
+    margin-bottom: 20px;
 }
